@@ -1,0 +1,21 @@
+Difference b/w CVCS & DVCS:
+
+1- In cvcs a client need to get local copy of source file, do not changes & commit these changes to central source on server.
+
+In DVCS each client can have a local branch as well and have a complete history on it. Client need to push the changes to branch which will then be pushed to server repo.
+
+2- CVCS system are easy to learn & setup.
+  DVCS systems are difficult for beigners multiple commands need to be remembered.
+
+3- Working on branches is difficult in CVCS, developer often faces merge conflict.
+
+Working on branches is easier in DVCS, developer faces less difficulty.
+
+4- CVCS system do not provide offline access.
+DVCS systems are working fine on offline mode as a client copies the entire repository on the local machine.
+
+5- CVCS is slower as every command need to be communicate with server.
+DVCS is faster as mostly user deals with local copy without hitting server everytime.
+
+6- IF CVCS server is down developer cant work.
+ If DVCS server is down developer can work using their local copy.

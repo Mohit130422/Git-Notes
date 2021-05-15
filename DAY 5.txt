@@ -1,0 +1,20 @@
+1. create a new directory and git bash here.
+2. gitinit in this file
+3. create a file with touch file command.
+4. ls for checking a file.
+5. git add .
+6. git show
+7. vi .gitignore
+8. insert for I
+9. type file extension for exclude a files
+10. esc for save and :wq for exit.
+11. git add .gitignore
+12. git commit -m"gitignore file"
+13. add files with touch command u want to exclude.
+14. git status
+15. git add .
+16. git commit -m "git ignore finally worked."
+17. git log 
+18. git show (commit id)
+
+

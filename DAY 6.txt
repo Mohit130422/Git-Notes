@@ -1,0 +1,28 @@
+Git Branching:- 
+1-this diagram visualize a repository with two isolated lines of development.
+2-1 for little feature and 1 for a longer running feature by developing them in branches it is not only possible to work on.
+3-both of them parallal but it keeps also a main master branch, free from errors.
+
+Note: 
+1- each task has one seprate branch.
+2- after done with code merge other branches in master.
+3- this concept is useful for parallal developement.
+4- you can create any no. of branches.
+5- changes are personal to dead particular branch.
+6- default branch is master branch.
+7- files created in work space will be visible in any no. of th branch workspace, until you commit.
+once you commit then dead files belongs to the particular branch. 
+8- when create a new branch data of the existing branch is copy to the new branch.
+
+commands:
+1- git branch (for checking a how many branches in directory) 
+note: (*) for mention u for a cuurent branch which u enter current time.
+2- git branch (branch name)- for create a new branch.
+3- git checkout (branch name)- for switch to a branch.
+4- git log / git log --oneline
+5- again switch to another branch.
+6- create a file in current branch  cat > (filename)
+7- git add .
+8- git commit -m "commit message"
+9- checkout to master branch.
+10- again git log --oneline- and finally u see the changes.

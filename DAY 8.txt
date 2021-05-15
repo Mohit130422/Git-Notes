@@ -1,0 +1,21 @@
+git stashing: is used to put workspace area code into temporarily memory which is called stash.
+1. create a file with cat > testfile command.
+2. add file in steging area  >> git add .
+3. commit file >> git commit -m "commit message"
+4. open file with >> vi testfile (file name) & Insert (press i) some data in this file.
+5. esc : wq for exit with save.
+6. stash file >> git stash
+7. git status
+8. open same file again >> cat "file name" 
+9. vi testfile  and insert some another data & again (esc : wq)
+10. git stash
+11. git stash list
+12. pull file from stash area >> git stash apply {0}-----
+13. git add .
+14. git commit -m "message"
+15. second stash pull, add , commit. but in this process conflict error so resolve the conflict error as you can yesterday.
+16. git add .
+17. git commit -m "message"
+18. stash clear >> git stash clear
+19. and check stash area.
+20. stash area clean.

@@ -1,0 +1,18 @@
+note: branches of same repositories can be merge.
+
+1- create a file in maseter brnach with any name.
+2- git add .
+3- git commit -m "commit message"
+4- got to the other branch (git checkout branch).
+5- create a file with same name as in master branch.
+6- add data in this file.
+7- git add .
+8- git commit -m "commit message"
+9- git checkout master
+10- git merge "Branch name"
+11- as your merge braches then console will show you the conflict error.
+12- after conflict error open file with (vi <filename>) for edit.
+13- save file. 
+14- git add .
+15- git commit -m "final commit message"
+16- git push -u origin master

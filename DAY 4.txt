@@ -1,0 +1,17 @@
+1. create dir in window.
+2. git init to make a directory as git directory.
+3. connection with github. #git remot add origin (url of central repo)
+4. git pull origin master.
+5. git log.
+6. git show (commit id)
+
+push again:
+1. add some data in this file.
+2. git status
+3. git add .
+4. git status
+5. git commit -m (commit message)
+6. git status.
+7. git push -u origin master.
+
+gitignore: it is used to ignore some specific type of files while using commit.

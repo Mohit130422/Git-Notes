@@ -1,0 +1,69 @@
+Repository:
+- Repository is a place where you have your all codes or kind of folder on server.
+- It is a kind of folder releated to one product.
+- Changes are personal to that particlular repository.
+
+Server:
+- It stores all repositories.
+- It contains metadata also.
+
+Working Directory:
+- Where you see files physically and do modifications.
+- At a time you can work on particular branch.
+
+note: In other CVCS, developer generally make modification & commit their changes directly to the repository. but in GIT uses a different strategy , git does not track each n every modofied file whenever you do commit an operation git looks for the files present in staging area are considered for commit & not all the modified files.
+
+Working Directory---(add)------->Staging Area---(commit)-------->Local Repo
+
+Commit-ID/Version_ID/Version:
+- Reference to identify each change.
+- TO identify who changed the file.
+
+Tags:
+Tags assign a meanigful name with a specific version in the repository once a tag is created for a particular save, even if you create a new commit it will not be updated.
+
+Snapshots:
+- Represents some data of particluar time.
+- It is always incremental i.e it stores the changes ( appended data) only not entire copy.
+
+Commit:
+- Store changes in repos, you will get on commit-id.
+- It is 40digit alphanumeic characetrs.
+- It uses SHA-1 checksum concept.
+- Even if you change one dot commit-id will get change.
+- Commit is also named as SHA1 hash.
+
+PUSH:
+ Push operation copies changes from a local repo instances to a remote or central repo. This is used to store the changes permanently into the git repo.
+
+PULL:
+ Pull operation copies the changes from a remote repo to a local machine. The pull operation is used for synchronization between two repo.
+
+Branch:
+- Product is same so one reps but different task.
+- Each task has one seprate branch.
+- Finally merge(codes) all branches.
+- Usefull when you want to work parally.
+- Can create one branch on the basis of another branch.
+- Changes are personal to that particular branch.
+- Default branch is master.
+- FIle created in workspace will be visible in any of the branch workspace untill you commit, once you commit then that file belongs to that particluar branch.
+
+Advantages of GIT:
+- Free & open source.
+- Fast & small- as most of the operations are performed locally therefore it is fast.
+- Security- git uses a common cryptography hash function called Secure Hash Function (SHA-1) to name & identify objects within its database.
+- No need of powerful hardware.
+- Easier branching: if we create a new branch it will copy all the code to the branch.
+
+Types of Repository:
+1- Bare Repo(Central Repo)
+2- Non Bare Repo(Local Repo)
+
+Bare Repository:
+- store & share only.
+- All central repositories are bare repo.
+
+Non-Bare Repo:
+- Where you can modify the files.
+- All local repo are non-bare repo.

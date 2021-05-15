@@ -1,0 +1,10 @@
+ubuntu upgrade: apt/yum update -y
+update list: apt list --upgradable
+create superuser: sudo su
+install git: apt/yum install git -y
+version of git: git --version
+status check git: git status
+configure: git config --global 	
+config email: git config --global user.email"varshneymohit35@gmail.com"
+list: git config --list
+git initialize in directory: git init

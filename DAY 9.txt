@@ -1,0 +1,20 @@
+ctrl+l for clear screen of git.
+
+GIT RESET: it is used to undo the changes from steging area to workplace.
+1. create a new file. >> cat>"filename" and add some data in this file.
+2. git add .
+3. git status
+4. git reset "filename"
+5. git status
+6. create another file >>cat>"filename" and add some data in this file.
+7. git add . or git add "filename"(optional)
+8. git reset --hard.
+9. git status
+10. Working tree clean all file reset.
+
+GIT REVERT: it is used to undo the last commit.
+1. create file and add  and commit.
+2. git revert
+3. open editor and leave message for wrong commit.
+4. git log --oneline
+5. git show "commit id"

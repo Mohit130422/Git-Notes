@@ -1,0 +1,14 @@
+1. create a folder(directory) in the machine.
+2. initialize this dir to a git dir.>>git init
+3. git status
+4. touch filename
+5. git add .
+6. git status
+7. git commit -m "commit message"
+8. git status
+9. git log.
+10. git show<commit-id>
+11. git remote add origin <central-repo url>
+12. git push -u origin master
+	username
+	password

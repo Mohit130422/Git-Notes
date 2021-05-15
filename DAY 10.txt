@@ -1,0 +1,10 @@
+GIT TAG: it is used to assign tags to the commits. 
+
+1.command: git tag -a tagname -m message commitid
+2.show all tags : git tag
+3.show specific tag : git show tagname
+4.delete tag: git tag -d tagname
+5.create other files
+6.git status
+7.delete file before add in steging area>> git clean -n
+8.delete forcefully before add in steging area>>git clean -f
